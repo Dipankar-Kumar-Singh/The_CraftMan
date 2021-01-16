@@ -186,5 +186,84 @@ img:hover {
 }
 
 
+div.innovators_parent {
+    padding: 50px ;
+    color:rgb(102, 255, 0) ;
+    font-size: 200%;
+    justify-content: center ;
+}
+
+h3 {
+    
+    text-align: center;
+    
+}
+
+
+
+.technology11 h1 {
+    display: flex ;
+    color: white ;
+    justify-content: center ; 
+    font-size: 400%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background:  linear-gradient( rgb(117, 3, 56) 30% , rgb(255, 30, 0));
+    border-radius: 50px;
+
+}
+
+.technology_parent {
+    display: flex ;
+    flex-wrap: wrap;
+}
+
+technology_child {
+    display: inline;
+    height: 40%;
+    width: 30% ;
+}
+
+
+div.technology_parent {
+    padding: 50px ;
+    color:rgb(102, 255, 0) ;
+    font-size: 200%;
+    justify-content: center ;
+}
+
+
+/* **************************** */
+
+.ftechnology11 h1 {
+    display: flex ;
+    color: white ;
+    justify-content: center ; 
+    font-size: 400%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background:  linear-gradient( rgb(117, 3, 56) 30% , rgb(255, 30, 0));
+    border-radius: 50px;
+
+}
+
+.ftechnology_parent {
+    display: flex ;
+    flex-wrap: wrap;
+}
+
+ftechnology_child {
+    display: inline;
+    height: 40%;
+    width: 30% ;
+}
+
+
+div.ftechnology_parent {
+    padding: 50px ;
+    color:rgb(102, 255, 0) ;
+    font-size: 200%;
+    justify-content: center ;
+}
+
+
 
 
