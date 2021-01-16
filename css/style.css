@@ -4,6 +4,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -54,6 +61,7 @@ button {
 
 button:hover{
     background-color : rgba(0,136,169,0.8) ;
+    color: white ;
 
 }
 
@@ -116,7 +124,7 @@ button:hover{
 #earth {
 
     height: 100%;
-    width: 60;
+    width: 50%;
 
 }
 
@@ -124,12 +132,35 @@ button:hover{
     display: block;
     margin-left: auto;
     margin-right: auto; 
-    width: 50%;
+    width: 100%;
     border-radius: 50%;
     box-shadow :  0 0 10px #2196f3 ,0 0 40px #2196f3 , 0 0 80px #2196f3 ;
     transition: all 3s  ease 0s ;
 }
 
+#earth img:hover{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 105%;
+    border-radius: 50%;
+    box-shadow :  0 0 10px #c8ff00 ,0 0 40px #7dff03 , 0 0 80px #00ff95 , 0 0 120px #2196f3 ;
+    transition: all 2s  ease 0s ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ******************************************************************************************************* */
 
 
 .innovators11 h1 {
@@ -140,8 +171,18 @@ button:hover{
     font-family: 'IBM Plex Sans', sans-serif;
     background:  linear-gradient( rgb(117, 3, 56) 30% , rgb(255, 30, 0));
     border-radius: 50px;
-
 }
+
+.innovators11 h1:hover {
+    display: flex ;
+    color: white ;
+    justify-content: center ; 
+    font-size: 400%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background:  linear-gradient( rgb(117, 3, 56)  , rgb(255, 30, 0) , yellow) ;
+    border-radius: 50px;
+}
+
 
 
 
@@ -172,14 +213,15 @@ innovators_child {
 
 img:hover {
     display: inline-flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px ;
+    margin-left: 60px;
+    margin-right: 60px;
+    width: 410px ;
     justify-content: space-between ;
-    padding: 30px ;
+    padding: 10px ;
     border-radius: 100px;
     box-shadow :  0 0 10px #2196f3 ,0 0 40px #2196f3 , 0 0 80px #2196f3 ;
     margin: 20px;
+    cursor: pointer;
     transition : all 1s ease 0s ;
     
 
@@ -191,6 +233,8 @@ div.innovators_parent {
     color:rgb(102, 255, 0) ;
     font-size: 200%;
     justify-content: center ;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 h3 {
@@ -212,6 +256,18 @@ h3 {
 
 }
 
+.technology11 h1:hover {
+    display: flex ;
+    color: white ;
+    justify-content: center ; 
+    font-size: 400%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background:  linear-gradient( rgb(117, 3, 56) , rgb(255, 30, 0), yellow);
+    border-radius: 50px;
+    
+
+}
+
 .technology_parent {
     display: flex ;
     flex-wrap: wrap;
@@ -229,6 +285,8 @@ div.technology_parent {
     color:rgb(102, 255, 0) ;
     font-size: 200%;
     justify-content: center ;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 
@@ -242,8 +300,18 @@ div.technology_parent {
     font-family: 'IBM Plex Sans', sans-serif;
     background:  linear-gradient( rgb(117, 3, 56) 30% , rgb(255, 30, 0));
     border-radius: 50px;
-
 }
+
+.ftechnology11 h1:hover {
+    display: flex ;
+    color: white ;
+    justify-content: center ; 
+    font-size: 400%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background:  linear-gradient( rgb(117, 3, 56)  , rgb(255, 30, 0) , yellow);
+    border-radius: 50px;
+}
+
 
 .ftechnology_parent {
     display: flex ;
@@ -262,6 +330,9 @@ div.ftechnology_parent {
     color:rgb(102, 255, 0) ;
     font-size: 200%;
     justify-content: center ;
+    font-family: 'Open Sans', sans-serif;
+
+    
 }
 
 
@@ -269,10 +340,43 @@ div.ftechnology_parent {
 
 p {
     padding: 60px ;
-    color : white;
+    color : rgb(255, 93, 247);
     font-size: 30px;
-    text-shadow: 0 0 10px rgb(252, 66, 128); 0 0 20px rgb(252, 66, 128) ;
+    text-shadow: 0 0 10px rgb(0, 0, 0) , 0 0 20px rgb(107, 3, 38) ;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+p:hover {
+    padding: 60px ;
+    color : rgb(255, 37, 200);
+    font-weight: 800 ;
+    font-size: 30px;
+    text-shadow: 0 0 10px rgb(0, 0, 0) , 0 0 20px rgb(0, 0, 0) ;
+    font-family: 'Montserrat', sans-serif;
+    transition : all 1s ease 0s;
+
+}
 
 
 
+img#realearth  {
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+}
 
+div#earth.intro22 {
+    width: 36% ;
+    height : auto ;
+    justify-content: center ;
+
+}
+
+p#left_para {
+    margin : 0px ; 
+    padding : 0px;
+    font-family: 'Nunito', sans-serif; 
+    
+}
