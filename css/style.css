@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Staatliches&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -75,12 +78,37 @@ button:hover{
     /* flex-wrap: wrap; */
     justify-content: space-evenly ;
     color: rgb(255, 153, 0);
+    height: 80% ;
+    align-items: center ;
+    font-family: 'Nunito', sans-serif;
+    
+    
+}
+
+.intro2 p {
+    font-size: 150%;
+    
+}
+
+.intro2 p:hover{
+    font-size: 170%;
+    transition : all 0.5s ease-in-out ;
+    color: rgb(0, 153, 255);
+}
+
+.intro2 h1:hover {
+    font-size: 300% ;
+    transition : all 0.5s ease-in-out ;
+    color: rgb(0, 153, 255);
+    font-family: 'Nunito', sans-serif;
 
 }
+
 .intro2 {
     display: flex ;
     height: 50%;
     width: 20%;
+    
 
 
 }
