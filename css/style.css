@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -101,7 +103,6 @@ button:hover{
     transition : all 0.5s ease-in-out ;
     color: rgb(0, 153, 255);
     font-family: 'Nunito', sans-serif;
-
 }
 
 .intro2 {
@@ -130,5 +131,14 @@ button:hover{
 }
 
 
+
+.innovators11 h1 {
+    display: flex ;
+    color: white ;
+    justify-content: center ; 
+    font-size: 400%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background:  linear-gradient( rgb(117, 3, 56) 30% , rgb(255, 30, 0));
+    border-radius: 50px;
 
 }
