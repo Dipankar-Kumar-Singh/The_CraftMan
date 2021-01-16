@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Staatliches&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 ;
+    background-color: rgb(21, 21, 31)
+}
+
+li ,a , button {
+    font-family: 'Staatliches', cursive;
+    font-weight: 500;
+    font-size: 20px ;
+    color: rgb(179, 255, 0);
+    text-decoration: none;
+    border-radius: 20px ;
+}
+
+header {
+    display : flex ;
+    justify-content: space-between ;
+    align-items : center ;
+    padding : 30px 10% ;
+}
+
+.navbar {
+    list-style : none; 
+
+}
+.navbar li {
+    display: inline-block;
+    padding: 0px 20px ;
+}
+
+.navbar li a {
+   transition: all 0.3s ease 0s;
+}
+.navbar li a:hover {
+    color: rgb(255, 255, 255) ;
+ }
+ 
+button {
+    padding: 9px 25px ;
+    background-color: rgba(0,136,169,1) ;
+    border: none ;
+    border-radius: 50px ;
+    cursor: pointer;
+    transition : all 0.3s ease 0s ;
+}
+
+button:hover{
+    background-color : rgba(0,136,169,0.8) ;
+
+}
+
+a:hover { 
+    color : #255784 ;
+    background : #ffffff ;
+    box-shadow : 0 0 10px #fafdff ,0 0 40px #2196f3 , 0 0 80px #2196f3 ;
+    transition-delay: 0.01s;
+
+}
