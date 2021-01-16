@@ -44,7 +44,7 @@ button {
     border: none ;
     border-radius: 50px ;
     cursor: pointer;
-    transition : all 0.3s ease 0s ;
+    transition : all 0.5s ease 0s ;
 }
 
 button:hover{
@@ -52,10 +52,55 @@ button:hover{
 
 }
 
-a:hover { 
+.neon:hover { 
+    padding: 10px;
     color : #255784 ;
-    background : #ffffff ;
-    box-shadow : 0 0 10px #fafdff ,0 0 40px #2196f3 , 0 0 80px #2196f3 ;
+    background : #4b99ff ;
+    box-shadow : 0 0 10px #2196f3,0 0 40px #2196f3 , 0 0 80px #2196f3 ;
     transition-delay: 0.01s;
+
+}
+
+#sidebutton:hover {
+    color : #255784 ;
+    background : #4b99ff ;
+    box-shadow : 0 0 10px #2196f3,0 0 40px #2196f3 , 0 0 80px #2196f3 ;
+    transition-delay: 0.02s;
+
+
+}
+
+.intro1  {
+    display: flex ;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly ;
+    color: rgb(255, 153, 0);
+
+}
+.intro2 {
+    display: flex ;
+    height: 50%;
+    width: 20%;
+
+
+}
+#earth {
+
+    height: 100%;
+    width: 60;
+
+}
+
+#earth img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 50%;
+    border-radius: 50%;
+    box-shadow :  0 0 10px #2196f3 ,0 0 40px #2196f3 , 0 0 80px #2196f3 ;
+    transition: all 3s  ease 0s ;
+}
+
+
 
 }
